@@ -1,0 +1,96 @@
+Microsoft Windows [Version 10.0.10240]
+(c) 2015 Microsoft Corporation. All rights reserved.
+
+C:\Users\jaydeep\Desktop\dore\Source>npm install
+npm WARN deprecated gulp-util@3.0.8: gulp-util is deprecated - replace it, following the guidelines at https://medium.com/gulpjs/gulp-util-ca3b1f9f9ac5
+npm WARN deprecated browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+npm WARN deprecated graceful-fs@3.0.11: please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js
+npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated minimatch@0.2.14: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated graceful-fs@1.2.3: please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js
+
+> node-sass@4.11.0 install C:\Users\jaydeep\Desktop\dore\Source\node_modules\node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v4.11.0/win32-x64-64_binding.node
+Download complete  ] - :
+Binary saved to C:\Users\jaydeep\Desktop\dore\Source\node_modules\node-sass\vendor\win32-x64-64\binding.node
+Caching binary to C:\Users\jaydeep\AppData\Roaming\npm-cache\node-sass\4.11.0\win32-x64-64_binding.node
+
+> node-sass@4.11.0 postinstall C:\Users\jaydeep\Desktop\dore\Source\node_modules\node-sass
+> node scripts/build.js
+
+Binary found at C:\Users\jaydeep\Desktop\dore\Source\node_modules\node-sass\vendor\win32-x64-64\binding.node
+Testing binary
+Binary is fine
+
+> gifsicle@3.0.4 postinstall C:\Users\jaydeep\Desktop\dore\Source\node_modules\gifsicle
+> node lib/install.js
+
+  √ gifsicle pre-build test passed successfully
+
+> jpegtran-bin@3.2.0 postinstall C:\Users\jaydeep\Desktop\dore\Source\node_modules\jpegtran-bin
+> node lib/install.js
+
+  √ jpegtran pre-build test passed successfully
+
+> optipng-bin@3.1.4 postinstall C:\Users\jaydeep\Desktop\dore\Source\node_modules\optipng-bin
+> node lib/install.js
+
+  √ optipng pre-build test passed successfully
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN dore-jquery@1.0.2 No repository field.
+npm WARN dore-jquery@1.0.2 No license field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+added 1027 packages from 624 contributors and audited 13858 packages in 108.623s
+found 11 vulnerabilities (1 low, 6 moderate, 4 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+C:\Users\jaydeep\Desktop\dore\Source>gulp
+'gulp' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\jaydeep\Desktop\dore\Source>npm audit fix
+npm WARN dore-jquery@1.0.2 No repository field.
+npm WARN dore-jquery@1.0.2 No license field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+up to date in 7.854s
+fixed 0 of 11 vulnerabilities in 13858 scanned packages
+  2 package updates for 11 vulns involved breaking changes
+  (use `npm audit fix --force` to install breaking changes; or refer to `npm audit` for steps to fix these manually)
+
+C:\Users\jaydeep\Desktop\dore\Source>gulp
+'gulp' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\jaydeep\Desktop\dore\Source>npm install gulp-cli -g
+C:\Users\jaydeep\AppData\Roaming\npm\gulp -> C:\Users\jaydeep\AppData\Roaming\npm\node_modules\gulp-cli\bin\gulp.js
++ gulp-cli@2.0.1
+added 236 packages from 154 contributors in 12.772s
+
+C:\Users\jaydeep\Desktop\dore\Source>gulp
+[11:13:24] Using gulpfile ~\Desktop\dore\Source\gulpfile.js
+[11:13:24] Starting 'default'...
+[11:13:24] Starting 'sass'...
+[11:13:24] Starting 'browserSync'...
+[11:13:24] Finished 'browserSync' after 11 ms
+[Browsersync] Access URLs:
+ -------------------------------------------------------------
+       Local: http://localhost:3000/Dashboard.Default.html
+    External: http://192.168.0.108:3000/Dashboard.Default.html
+ -------------------------------------------------------------
+          UI: http://localhost:3001
+ UI External: http://localhost:3001
+ -------------------------------------------------------------
+[Browsersync] Serving files from: src
+[11:13:32] Finished 'sass' after 7.27 s
+[11:13:32] Starting 'watch'...
+[11:13:32] Finished 'watch' after 292 ms
+[11:13:32] Finished 'default' after 7.57 s
+^CTerminate batch job (Y/N)? y
+
+C:\Users\jaydeep\Desktop\dore\Source>
